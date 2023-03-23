@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SoundEffectsDefinition>
+ <Effects>
+	<SoundEffect
+    		name="E Class Gong"
+   		base="Train Movement"
+     		file="Sounds/eclass-gong.ogg"
+     		volume="0.7"
+     		pitch="1"
+		loop="false"
+     		randomtime="false"
+	/> 
+	<SoundEffect name="E Class Arrive"
+		base="Train Movement"
+		file="Sounds/eclass-arrive.ogg"
+		fadelength="0.3"
+		volume="0.5"
+		pitch="1.0"
+		loop="false"
+		randomtime="false"
+	/>
+        <SoundEffect name="E Class Leave"
+		base="Train Movement"
+		file="Sounds/eclass-leave.ogg"
+		fadelength="0.3"
+		volume="0.7"
+		pitch="1.0"
+		loop="false"
+		randomtime="false"
+	/>    
+ </Effects>
+</SoundEffectsDefinition>

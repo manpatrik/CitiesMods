@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SoundEffectsDefinition>
+ <Effects>
+ 	<SoundEffect 
+		name="S70 Run"
+		base="Tram Sound"
+		file="Sounds/S70Run.ogg"
+		type="EngineSoundEffect"
+		volume="1.0"
+	/>
+	<SoundEffect name="S70 Horn"
+		base="Train Movement"
+		file="Sounds/S70horn.ogg"
+		fadelength="0.18"
+		volume="0.5"
+		pitch="1.0"
+		loop="false"
+		randomtime="false"
+	/>
+	<SoundEffect name="S70 Bell"
+		base="Train Movement"
+		file="Sounds/S70Bell.ogg"
+		fadelength="0.18"
+		volume="1.0"
+		pitch="1.0"
+		loop="false"
+		randomtime="false"
+	/>
+ </Effects>
+</SoundEffectsDefinition>

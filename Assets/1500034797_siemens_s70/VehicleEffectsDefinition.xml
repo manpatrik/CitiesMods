@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleEffectsDefinition>
+	<Vehicles>
+		<Vehicle name="Siemens S70 1 Car">
+			<Effects>
+				<Effect name="Tram Sound" replacement="S70 Run" fallback="Tram Sound">
+				</Effect>
+
+				<Effect name="S70 Horn">
+				<RequiredFlags>Created Leaving</RequiredFlags>
+				</Effect>				
+				
+				<Effect name="S70 Bell">
+				<RequiredFlags>Created Arriving</RequiredFlags>
+				</Effect>
+							
+			</Effects>
+		</Vehicle>
+		<Vehicle name="Siemens S70 2 Car">
+			<Effects>
+				<Effect name="Tram Sound" replacement="S70 Run" fallback="Tram Sound">
+				</Effect>
+
+				<Effect name="S70 Horn">
+				<RequiredFlags>Created Leaving</RequiredFlags>
+				</Effect>				
+				
+				<Effect name="S70 Bell">
+				<RequiredFlags>Created Arriving</RequiredFlags>
+				</Effect>
+							
+			</Effects>
+		</Vehicle>
+	</Vehicles>
+</VehicleEffectsDefinition>

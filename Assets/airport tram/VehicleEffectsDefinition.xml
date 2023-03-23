@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleEffectsDefinition>
+	<Vehicles>
+                <Vehicle name="2732819181.Airport Connect - E1 Class - Ryde">
+			<Effects>
+				<Effect name="Train Movement" replacement="Tram Movement">
+				</Effect>
+	
+				<Effect name="E Class Gong">
+					<RequiredFlags>Created Leaving</RequiredFlags>
+				</Effect>
+
+				<Effect name="E Class Arrive">
+					<RequiredFlags>Created Arriving</RequiredFlags>
+				</Effect>
+
+                                <Effect name="E Class Leave">
+					<RequiredFlags>Created Leaving</RequiredFlags>
+				</Effect>	
+                                
+                                <Effect name="Train Flange Grinding" fallback="None">				
+				</Effect>
+
+				<Effect name="Train Flange Squealing" fallback="None">
+                                </Effect>
+
+			</Effects>
+		</Vehicle>					
+	</Vehicles>
+</VehicleEffectsDefinition>
